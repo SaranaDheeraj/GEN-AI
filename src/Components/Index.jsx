@@ -3,8 +3,10 @@ import React from 'react';
 
 const Product= ({ data }) => {
   return (
-    <div className="product-data-table">
-      <table>
+    <div className="product-data-table" style={{width:"100%"}} >
+      <h2 style={{textAlign:"center"}}>Products Data</h2>
+      <div className='align-table'>
+      <table style={{backgroundColor:"white"}}>
         <thead>
           <tr>
             <th>Product Name</th>
@@ -22,6 +24,7 @@ const Product= ({ data }) => {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 };

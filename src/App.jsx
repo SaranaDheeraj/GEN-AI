@@ -5,6 +5,7 @@ import './App.css'
 import Index from './Components/Index'
 import Product from './Components/Index'
 import NavBar from './Components/NavBar'
+import SideBar from './Components/SideBar'
 
 function App() {
   const data = [
@@ -28,7 +29,10 @@ function App() {
   return (
     <>
     <NavBar/>
+    <div className='side'>
+    <SideBar/> 
     <Product data={data} /> 
+    </div>
     </>
   )
 }
