@@ -4,10 +4,10 @@ import React from 'react';
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-brand">GEN AI</div>
-      <div className="profile">
-        <img src="./profile.png" alt="Profile" />
-        <span>John Doe</span>
+      <div className="navbar-brand" style={{width:"90%"}}><p style={{textAlign:"center"}}>GEN AI</p></div>
+      <div className="profile" style={{width:"10%"}}>
+        <img src="./profile.jpeg" alt="Profile" />
+        <span>Dhoni</span>
       </div>
     </nav>
   );
