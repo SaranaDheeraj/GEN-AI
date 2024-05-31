@@ -24,7 +24,53 @@ function App() {
       clientName: "Travel Adventures",
       startDate: "2024-04-01",
     },
+    {
+      name: "Acme Running Shoes",
+      clientName: "Fitness Inc.",
+      startDate: "2023-10-25",
+    },
+    {
+      name: "Cedarwood Desk",
+      clientName: "Tech Solutions",
+      startDate: "2024-02-12",
+    },
+    {
+      name: "Panorama Camera",
+      clientName: "Travel Adventures",
+      startDate: "2024-04-01",
+    },
+    {
+      name: "Acme Running Shoes",
+      clientName: "Fitness Inc.",
+      startDate: "2023-10-25",
+    },
+    {
+      name: "Cedarwood Desk",
+      clientName: "Tech Solutions",
+      startDate: "2024-02-12",
+    },
+    {
+      name: "Panorama Camera",
+      clientName: "Travel Adventures",
+      startDate: "2024-04-01",
+    },
+    {
+      name: "Acme Running Shoes",
+      clientName: "Fitness Inc.",
+      startDate: "2023-10-25",
+    },
+    {
+      name: "Cedarwood Desk",
+      clientName: "Tech Solutions",
+      startDate: "2024-02-12",
+    },
+    {
+      name: "Panorama Camera",
+      clientName: "Travel Adventures",
+      startDate: "2024-04-01",
+    },
   ];
+  
 
   return (
     <>

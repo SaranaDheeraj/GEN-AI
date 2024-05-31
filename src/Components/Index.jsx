@@ -1,14 +1,14 @@
 // React component
-import React from 'react';
+import React from 'react'; 
 
 const Product= ({ data }) => {
   return (
-    <div className="product-data-table" style={{width:"100%"}} >
-      <h2 style={{textAlign:"center"}}>Products Data</h2>
+    <div className="product-data-table" style={{width:"82%"}} >
+      <h2>Products Data</h2>
       <div className='align-table'>
-      <table style={{backgroundColor:"white"}}>
+      <table style={{backgroundColor:"white",}}>
         <thead>
-          <tr>
+          <tr className="product-data-table-tr" style={{backgroundColor:"gray"}}>
             <th>Product Name</th>
             <th>Client Name</th>
             <th>Project Start Date</th>
